@@ -20,8 +20,8 @@ class RegisterPage extends StatelessWidget {
             child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                LogoLogin(),
-                Text('REGISTRO', style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),),
+                LogoLogin(ancho: 100),
+                Text('REGISTRO', style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold,),),
                 Container(
                     padding: EdgeInsets.symmetric(horizontal: 50),
                   child: CustomInput(
